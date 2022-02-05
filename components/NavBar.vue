@@ -39,9 +39,29 @@
           color="gray.500"
           :_hover="{ color: 'brand.400' }"
           is-external
+          href="https://chakra-ui-vue.com"
+        >
+          Docs
+        </c-link>
+      </c-box>
+      <c-box as="li" mr="8">
+        <c-link
+          color="gray.500"
+          :_hover="{ color: 'brand.400' }"
+          is-external
           href="https://github.com/chakra-ui/chakra-ui-vue"
         >
           Repo
+        </c-link>
+      </c-box>
+      <c-box as="li" mr="8">
+        <c-link
+          color="gray.500"
+          :_hover="{ color: 'brand.400' }"
+          is-external
+          href="https://github.com/uvacoder/12-chakra-ui-explorer"
+        >
+          Edit Repo
         </c-link>
       </c-box>
       <c-box as="li">
